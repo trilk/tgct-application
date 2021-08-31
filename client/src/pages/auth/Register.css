@@ -1,0 +1,12 @@
+.reg-type {
+  color: #555;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+.reg-type:hover {
+  color: #0e9f6e;
+  border-color: #0e9f6e;
+  border-width: 2px;
+}

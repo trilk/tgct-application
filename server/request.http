@@ -1,0 +1,26 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "trilk",
+  "password": "tri12345",
+  "firstname": "Tri",
+  "lastname": "Leo"
+}
+
+###
+
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "papi",
+  "password": "theanh12345",
+  "firstname": "Papi",
+  "lastname": "Anh",
+  "role": "admin"
+}
+
+###
+GET http://localhost:5000/api/auth
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTJjYWIwNDhiZDE5ZTgxYTBlNTkzNjgiLCJpYXQiOjE2MzAzODk5MzB9.XT452sU_9KCbBXIM6zOodbhNKoR_S3dPbJC3td24wLM
